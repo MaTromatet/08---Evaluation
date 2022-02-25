@@ -1,0 +1,26 @@
+div {
+  float: left;
+  min-height: 200px;
+  margin: 10px;
+  padding: 20px;
+
+  &:nth-of-type(1) {
+    border: 1px solid blue;
+    width: 200px;
+    button {
+    }
+  }
+  &:nth-of-type(2) {
+    border: 1px solid red;
+    width: 400px;
+
+    img {
+      height: 85px;
+      margin: 5px;
+      border: 1px solid grey;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
